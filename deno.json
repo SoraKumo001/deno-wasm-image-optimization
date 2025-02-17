@@ -7,6 +7,7 @@
     "include": [
       "./src"
     ],
-    "entrypoint": "src\\index.ts"
-  }
+    "entrypoint": "./src/index.ts"
+  },
+  "nodeModulesDir": "auto"
 }
