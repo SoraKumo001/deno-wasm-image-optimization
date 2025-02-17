@@ -85,13 +85,6 @@ Deno.serve(async (request) => {
       ? "jpeg"
       : "png");
 
-  using _r = {
-    [Symbol.dispose]: ()=>{
-      s.release();
-    }
-  }
-  await s.acquire();
-
   const image = await optimizeImage({
     image: srcImage,
     width: width ? Number(width) : undefined,
