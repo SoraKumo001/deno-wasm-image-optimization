@@ -1,14 +1,9 @@
 {
   "version": "4",
   "specifiers": {
-    "npm:@node-libraries/semaphore@*": "1.0.3",
-    "npm:wasm-image-optimization@*": "1.1.4",
-    "npm:wasm-image-optimization@1.1.4": "1.1.4"
+    "npm:wasm-image-optimization@*": "1.1.4"
   },
   "npm": {
-    "@node-libraries/semaphore@1.0.3": {
-      "integrity": "sha512-rHAzAaVa8hvJFmy9F9Y0sCZeIpaoSodCUXG/p1Fmui6qdsTXnJ5o0pjHec247bOhcF0dozYXERVOLo1TQ6XUIQ=="
-    },
     "wasm-image-optimization@1.1.4": {
       "integrity": "sha512-HEBEZ19zXpdySVoyFUam8D+ofF/QXbCBXlhXNwtAbfRCY1+tJpRB3eLfaT8BrBpgd9PD3yq5tdnn2bPbs9QpQg=="
     }

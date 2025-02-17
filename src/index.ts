@@ -1,5 +1,4 @@
-import { optimizeImage } from "npm:wasm-image-optimization/esm";
-import { semaphore } from "npm:@node-libraries/semaphore";
+import { optimizeImage } from "npm:wasm-image-optimization";
 
 const isValidUrl = (url: string) => {
   try {
@@ -19,8 +18,6 @@ const isType = (accept: string | null, type: string) => {
     true
   );
 };
-
-const s = semaphore(1);
 
 Deno.serve(async (request) => {
   const url = new URL(request.url);
